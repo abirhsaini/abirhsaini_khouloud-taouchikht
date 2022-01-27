@@ -14,7 +14,7 @@ const Order1 = (props) => {
              
               <div className="description"> <p>{props.description}</p></div>
               <div > <button   className='button1'>add to my order</button></div>
-              <div ><button onClick={faireredirection} className='button2'> confirm my order </button></div>
+              <div ><button class="btn btn-warning btn-rounded" onClick={faireredirection} className='button2'> confirm my order </button></div>
               
         </div>
         

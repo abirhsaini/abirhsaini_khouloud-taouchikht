@@ -19,7 +19,7 @@ function App() {
       <Route path="/about" exact component={About} />
       <Route path="/reservation" exact component={Reservation} />
       <Route path="/orderonline/myorder" exact component={Orderonline2} />
-      <Route path="/orderonline/myorder2" exact component={Ordenonline1} />
+      <Route path="/orderonline" exact component={Ordenonline1} />
       
     </Switch>
     </BrowserRouter></div>
