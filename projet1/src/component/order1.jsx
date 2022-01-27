@@ -9,8 +9,8 @@ const Order1 = (props) => {
               <span><img className="image"   src={require(`../assets/image/${props.image}`)} alt="" /></span>
              
               <div className="description"> <p>{props.description}</p></div>
-              <div className='button1'> <button>add to my order</button></div>
-              <div className='button2'><button> confirm my order </button></div>
+              <div > <button className='button1'>add to my order</button></div>
+              <div ><button className='button2'> confirm my order </button></div>
               
         </div>
         
