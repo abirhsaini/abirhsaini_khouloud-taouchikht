@@ -1,11 +1,19 @@
-import React from 'react';
+import React , { useState } from 'react';
+import{ init } from '@emailjs/browser';
+init("user_VMZRY92tzhFdreGcj3veP");
 
 
+function Input(props){
 
 
-function bbb() {
+    const [name, setName] = useState("");
+    const [date1, setDate] = useState("");
+    const [number1, setPhone] = useState("");
+    const [email1, setEmail] = useState("");
+    const [time1, setTime] = useState("");
+    const [personne1, setPersonne] = useState("");
+function Bbb(e) {
     var email = document.getElementById("email");
-    
     var date = document.getElementById("date");
     var time = document.getElementById("time");
     var number = document.getElementById("number");
@@ -29,13 +37,39 @@ function bbb() {
     }
     if (email.checkValidity() && date.checkValidity() && number.checkValidity() && time.checkValidity() && name1.checkValidity()) {
         alert("merci , votre demande est enregistré");
+        e.preventDefault();
+
+        sendFeedback("template_ysxyycn", {
+          name,
+          date1,
+          number1,
+          email1,
+          time1,
+          personne1,
+        });
+      };
 
         
     }
-}
 
-function Input(props){
 
+const sendFeedback = (templateId, variables) => {
+
+    window.emailjs
+        .send("service_hcsupv9", templateId, variables)
+          .then((res) => {
+            console.log('success !');
+            setName("");
+            setDate("");
+            setPhone("");
+            setEmail("");
+            setTime("");
+            setPersonne("");
+
+          })
+        };
+
+    
 
 return (
    < div>
@@ -43,28 +77,28 @@ return (
        <div className='block1'>
         <div className='name' >
 
-                <input type="text " id="name" placeholder="name" size="10 "  required />
+                <input type="text " id="name" onChange={(e) => setName(e.target.value)} placeholder="name" size="10 "  required />
             </div>
             <div > 
-                <input type="email" id="email" placeholder="--@gmail.com" size="10 " required />
+                <input type="email" id="email" onChange={(e) => setEmail(e.target.value)} placeholder="--@gmail.com" size="10 " required />
             </div>
             <div>
-                <input type="text" name="phone" id="phone" placeholder="phone" size="10 " required />
+                <input type="text" name="phone" id="phone" onChange={(e) => setPhone(e.target.value)} placeholder="phone" size="10 " required />
             </div>
             </div>
             <div className='block2'>
                 <div>
-                <input type="date" id="date"  placeholder="AAAA-MM-DD" min="2021-01-01" max="2022-12-31" required/>
+                <input type="date" id="date" onChange={(e) => setDate(e.target.value)} placeholder="AAAA-MM-DD" min="2021-01-01" max="2022-12-31" required/>
             </div>
             <div>
-                <input type="time" id="time" placeholder="appt" min="09:00" max="18:00" required />
+                <input type="time" id="time" placeholder="appt" onChange={(e) => setTime(e.target.value)} min="09:00" max="18:00" required />
             </div>
             <div>
-                <input type="number" id="number" placeholde="number of people " size="10 " required />
+                <input type="number" id="number" onChange={(e) => setPersonne(e.target.value)} placeholde="number of people " size="10 " required />
             </div>
             </div>
             <div>
-                <button  className="table" onClick={bbb}>{props.state}</button>
+                <button  className="table"  onClick={Bbb}>{props.state}</button>
             </div>
         </div>
             
