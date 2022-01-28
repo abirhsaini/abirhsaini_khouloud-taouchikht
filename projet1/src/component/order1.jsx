@@ -1,6 +1,6 @@
 import React from 'react';
 import "../style/tout.scss"
-import  {useHistory } from 'react-router-dom'
+
 
 const Order1 = (props) => {
 

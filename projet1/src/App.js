@@ -11,7 +11,7 @@ import Orderonline2 from "./pages/orderonline2";
 function App() {
   return ( <div className="brows">
     <BrowserRouter>
-    <meta name="color-scheme" content="dark light"></meta>
+    
     <Switch>
       
       <Route path="/menu" exact component={Menu} />
