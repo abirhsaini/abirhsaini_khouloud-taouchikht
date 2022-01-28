@@ -18,10 +18,10 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/reservation" exact component={Reservation} />
-      <Route path="/orderonline/myorder" exact component={Orderonline2} />
-      <Route path="/orderonline" exact component={Ordenonline1} />
-      
-    </Switch>
+      <Route path="/orderonline" exact component={Ordenonline1} /> 
+    
+       <Route path="/myorder" exact component={Orderonline2} /></Switch>
+  
     </BrowserRouter></div>
   );
 }

@@ -5,7 +5,7 @@ import "../style/tout.scss"
 const Order1 = (props) => {
 
      const faireredirection =()=>{ 
-    window.location.href="http://localhost:3000/orderonline/myorder";
+    window.location.href="http://localhost:3000/myorder";
      }
     return (
         <div>
