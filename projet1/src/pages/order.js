@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from '../component/input';
 import Navigation from '../component/navigation';
-import "../style/tout.scss"
+import "../style/tout.css"
 
 const  Orderonline2 = () => {
     

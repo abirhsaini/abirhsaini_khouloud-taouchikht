@@ -4,9 +4,13 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
+    "@fontsource/fanwood-text": "^4.5.2",
+    "@fontsource/zen-tokyo-zoo": "^4.5.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -18,6 +22,7 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

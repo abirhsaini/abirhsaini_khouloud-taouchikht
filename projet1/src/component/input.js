@@ -98,7 +98,7 @@ return (
             </div>
             </div>
             <div>
-                <button  className="table"  onClick={Bbb}>{props.state}</button>
+                <button  className="table66"  onClick={Bbb}>{props.state}</button>
             </div>
         </div>
             

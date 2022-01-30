@@ -1,0 +1,42 @@
+
+.container-fluid{
+    background-image: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%); 
+    background-size: auto;
+}
+.youfirst{
+    color:rgb(80, 16, 16);
+    font-family: "French Script MT";
+    font-size: 70px;
+    text-decoration: underline;
+    float: left;
+    padding-right: 400px;
+
+}
+.youfirst:hover{
+    color:rgb(59, 11, 11); 
+}
+.exo{
+    float: right;
+    padding-top: 40px;
+    font-size: 40px;
+    margin-right: 0px;
+}
+
+@media only screen and (min-width:600px) {
+ .navbar .rightSide button {
+   display: none;
+ }
+ .container-fluid {
+   display: none;
+ }
+}
+
+
+.exo:hover{
+    color:rgb(49, 10, 10);
+}
+
+
+
+
+
