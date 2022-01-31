@@ -3,8 +3,11 @@ import "../style/index.css";
 import "../style/reservation.css";
 import "../style/index.css";
 import "../style/home.css";
+import video from "../assets/image/WhatsApp Video 2022-01-30 at 15.58.43.mp4"
 
 import Footer from "../component/Footer";
+
+import "@fontsource/zen-tokyo-zoo";
 
 import img from "../assets/image/restaurant-open-sign.jpg";
 import img2 from "../assets/image/Pur-Restaurant-Paris.jpg";
@@ -36,6 +39,8 @@ const Home = () => {
         </div>
 
         </div>
+        <p className='video'>discover our restaurant</p>
+        <video src={video} width="1200" height="600" controls="controls" autoplay="true" />
         <Footer/> 
 
         </div>

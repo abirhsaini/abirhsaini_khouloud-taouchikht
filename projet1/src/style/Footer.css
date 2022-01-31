@@ -7,19 +7,21 @@
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
-  }
+}
+
 .className {
     color: white;
     margin: 20px;
     font-size: 70px;
-    
     padding-left: 30px;
     padding-right: 20px;
-  }
-  svg{
-      padding-right: 20px;
-      size: 90px;
-  }
-  .footer p {
+}
+
+svg {
+    padding-right: 20px;
+    size: 90px;
+}
+
+.footer p {
     color: rgb(247, 242, 242);
-  }
+}

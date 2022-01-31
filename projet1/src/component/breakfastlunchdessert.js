@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "@fontsource/zen-tokyo-zoo";
 
 
 const Bld = (props) => {
@@ -18,7 +19,7 @@ const Bld = (props) => {
     return (
     <div id={props.time}>  
         <div className='menu'>
-        <Link  id="time11" to={url} className="btn btn-primary"> {props.time}</Link>
+        <Link  id="time11" to={url} className="btn btn-warning"> {props.time}</Link>
         
             
           </div> 

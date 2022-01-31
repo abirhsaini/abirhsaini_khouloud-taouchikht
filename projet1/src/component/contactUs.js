@@ -8,38 +8,38 @@ init("user_VMZRY92tzhFdreGcj3veP");
 function ContactUs(props){
 
 
-    const [text, setFname] = useState("");
+    const [name1, setFname] = useState("");
     
-    const [email, setEmail] = useState("");
-    const [description, setComment] = useState("");
+    const [email1, setEmail] = useState("");
+    const [text1, setComment] = useState("");
    
 function Bbb(e) {
-    var email = document.getElementById("email");
+    var email = document.getElementById("exampleInputEmail");
     
-    var description = document.getElementById("comment");
+    var name= document.getElementById("Yourname");
     
-    var text = document.getElementById("name");
+    var text = document.getElementById("description");
     
     if (!email.checkValidity()) {
         alert("  veuillez entrer un email  ");
     }
     if (!text.checkValidity()) {
-        alert(" veuillez entrer votre prenom ");
+        alert(" veuillez entrer votre message ");
     }
    
-    if (!description.checkValidity()) {
+    if (!name.checkValidity()) {
         alert("veuiller entrer un commentaire");
     }
     
-    if (email.checkValidity() && text.checkValidity()  && description.checkValidity() ) {
+    if (email.checkValidity() && text.checkValidity()  && name.checkValidity() ) {
         alert("merci , votre demande est enregistré");
         e.preventDefault();
 
-        sendFeedback("template_ysxyycn", {
-            text,
+        sendFeedback("template_t7ac8x8", {
+           
          
-            description,
-          email,
+            name1, text1,
+            email1,
           
         });
       };
@@ -78,19 +78,19 @@ return (
             <form>
               <div className="col-md-6 form-line">
                 <div className="form-group">
-                  <label htmlFor="exampleInputUsername">Your name</label>
-                  <input type="text" className="form-control" id placeholder=" Enter Name" onChange={(e) => setFname(e.target.value)} />
+                  <label  htmlFor="exampleInputUsername">Your name</label>
+                  <input id='Yourname' type="text" className="form-control"  placeholder=" Enter Name" onChange={(e) => setFname(e.target.value)} />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="exampleInputEmail">Email Address</label>
-                  <input type="email" className="form-control" id="exampleInputEmail" placeholder=" Enter Email id" onChange={(e) => setEmail(e.target.value)}/>
+                  <label   htmlFor="exampleInputEmail">Email Address</label>
+                  <input  type="email" className="form-control" id="exampleInputEmail" placeholder=" Enter Email id" onChange={(e) => setEmail(e.target.value)}/>
                 </div>	
                 
               </div>
               <div className="col-md-6">
                 <div className="form-group">
                   <label htmlFor="description" > Message</label>
-                  <textarea className="form-control" id="description" placeholder="Enter Your Message" defaultValue={""} onChange={(e) => setComment(e.target.value)} />
+                  <textarea id="message" className="form-control" id="description" placeholder="Enter Your Message" defaultValue={""} onChange={(e) => setComment(e.target.value)} />
                 </div>
                 <div>
                 <button type="button" class="btn btn-warning" onClick={Bbb}>send message</button>

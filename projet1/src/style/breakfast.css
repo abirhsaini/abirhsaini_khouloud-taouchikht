@@ -1,152 +1,172 @@
-.brk{
-    font-family:'Zen Tokyo Zoo';
+.brk {
+    font-family: 'Zen Tokyo Zoo';
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
     line-height: 50px;
     text-align: left;
-    
     color: #FFFFFF;
     text-decoration: #FFFFFF;
 }
-.navbar{
+
+.navbar {
     margin-left: 0;
-    
 }
-a{
-    
+
+a {
     background-image: none;
 }
-.nav-item{
+
+.nav-item {
     size: 50px;
     color: rgb(253, 250, 250);
-    
 }
-.active{
+
+.active {
     font-size: 50px;
     color: rgb(253, 250, 250);
 }
-.active:hover{
-    text-decoration: underline;
 
+.active:hover {
+    text-decoration: underline;
     color: rgb(253, 250, 250);
 }
-.nav-item{
+
+.nav-item {
     font-size: 30px;
     color: rgb(253, 250, 250);
     margin-top: 100px;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     text-decoration: underline;
     color: rgb(61, 17, 17);
 }
-a.active{
+
+a.active {
     color: rgb(253, 250, 250);
 }
+
 .alt-grid .container {
-    width:100%;
-    max-width:none;
-    padding:0;
+    width: 100%;
+    max-width: none;
+    padding: 0;
     margin: 0;
 }
 
-
-.photo{
+.photo {
     margin-left: 0%;
     width: 253px;
     height: 359px;
     float: left;
     padding: 5px;
     margin-top: 50px;
-    
 }
-.o{
-    float: left;
-     width: 33.33%;
-    
-   
-   
-    
 
+.o {
+    float: left;
+    width: 33.33%;
     font-family: 'Fahkwang';
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    
     text-align: left;
-
-    color:ivory;
-    
-    
+    color: ivory;
 }
-strong{
+
+strong {
     font-size: 38px;
     font-family: 'Fahkwang';
-    color:#D5D790;
-    text-shadow: 0 0 0.1em #ced498, 0 0 0.2em black,  0 0 5em #c6c99f;
+    color: #D5D790;
+    text-shadow: 0 0 0.1em #ced498, 0 0 0.2em black, 0 0 5em #c6c99f;
     -webkit-text-stroke: 0.06em rgba(black, 0.5);
     margin-top: 0;
     padding-top: 0;
-    
 }
-em{
+
+em {
     font-size: 48px;
-    
-    color:#D5D790;
-    text-shadow: 0 0 0.1em #bcbe99, 0 0 0.2em black,  0 0 5em #b5c27a;
+    color: #D5D790;
+    text-shadow: 0 0 0.1em #bcbe99, 0 0 0.2em black, 0 0 5em #b5c27a;
     -webkit-text-stroke: 0.06em rgba(black, 0.5);
     font-family: 'Fanwood Text';
     margin-top: 30px;
 }
 
-
 .plat1::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
 .plat2::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
 .plat3::after {
     content: "";
     clear: both;
     display: table;
-    
-  }
-  .plat4::after {
+}
+
+.plat4::after {
     content: "";
     clear: both;
     display: table;
-    
-  }
-  .checked {
+}
+
+.checked {
     color: orange;
     size: 800px;
-    
-  }
-  .checked{
-      size: 800px;
-      margin: 10;
-      margin-bottom: 40px;
-      margin-top: 80px;
-  }
-  .fa-star{
+}
+
+.checked {
     size: 800px;
     margin: 10;
     margin-bottom: 40px;
     margin-top: 80px;
+}
 
-  }
-  .row{
+.fa-star {
+    size: 800px;
+    margin: 10;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.row {
     background-IMAGE: linear-gradient(to top, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
-     margin-top: 30px; 
-     padding-top: 40px;
-      
-  }
- .col:first-child{
-     padding-left: 20px;
-     margin-left: 20px;
- }
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+.col:first-child {
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.photo1 img {
+    transition: all 1.5s ease;
+}
+
+.photo1:hover img {
+    transform: scale(1.2);
+}
+
+.photo2 img {
+    transition: all 1.5s ease;
+}
+
+.photo2:hover img {
+    transform: scale(1.2);
+}
+
+.photo3 img {
+    transition: all 1.5s ease;
+}
+
+.photo3:hover img {
+    transform: scale(1.2);
+}

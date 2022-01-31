@@ -14,7 +14,7 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 const faireredirection =()=>{ 
-  window.location.href="http://localhost:3000/order";
+  window.location.href="/order";
    }
 const Break = () => {
   

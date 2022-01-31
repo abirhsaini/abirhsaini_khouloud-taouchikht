@@ -1,14 +1,11 @@
  .rectangle {
-    
      padding-top: -70px;
-     
      margin-left: 30px;
-     
      border: 1px SOLID #333;
      background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
      font-family: "French Script MT";
      text-align: left;
-    width: 600px;
+     width: 600px;
  }
  
  .rectangle p.a {
@@ -17,7 +14,7 @@
      color: #912121;
      font-style: italic;
      text-decoration: underline;
-     float:left;
+     float: left;
      padding-left: 0px;
      margin-left: 0px;
  }
@@ -33,7 +30,6 @@
  .rectangle2 {
      margin-left: 30px;
      float: right;
-    
      border: 1px SOLID #333;
      background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
      font-family: "French Script MT";
@@ -41,7 +37,6 @@
  }
  
  .h2 {
-     
      display: inline-flex;
  }
  
@@ -54,14 +49,26 @@
      text-decoration: underline;
      padding-left: 0px;
      margin-left: 0px;
-    
-     
  }
- .home{
-    background-image: url("../assets/image/web_zuerich_kindli_restaurant_1600x900_8375.jpg");
-   
-    background-attachment: fixed;
-    background-size: auto;
-    background-repeat: no-repeat; 
-
+ 
+ .home {
+     background-image: url("../assets/image/web_zuerich_kindli_restaurant_1600x900_8375.jpg");
+     background-attachment: fixed;
+     background-size: auto;
+     background-repeat: no-repeat;
+ }
+ 
+ .video {
+     font-family: 'Zen Tokyo Zoo';
+     background-color: rgb(233, 178, 59);
+     width: 700px;
+     height: 79px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 70px;
+     line-height: 50px;
+     text-align: left;
+     margin: 30px;
+     color: #FFFFFF;
+     text-decoration: #FFFFFF;
  }

@@ -1,5 +1,6 @@
 import React , {useState} from 'react';
 import Bld from '../component/breakfastlunchdessert';
+import Footer from '../component/Footer';
 import Navigation from '../component/navigation';
 import "../style/menu.css"
 
@@ -19,8 +20,11 @@ const Menu = () => {
             <Navigation /></div>
           
 
-            <div className='menu' >
+            <div  id='image' className='menu' >
                 {map}</div>
+                <div className='footer2'>
+                    <Footer />
+                </div>
         </div>
     );
 };
