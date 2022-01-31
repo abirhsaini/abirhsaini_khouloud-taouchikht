@@ -13,7 +13,7 @@ import "@fontsource/fanwood-text";
 import React from "react";
 const Dinner = () => {
   const faireredirection =()=>{ 
-    window.location.href="http://localhost:3000/order";
+    window.location.href="/order";
      }
     
    

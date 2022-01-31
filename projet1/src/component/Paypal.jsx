@@ -14,7 +14,7 @@ export default function Paypal() {
                 description: "plat",
                 amount: {
                   currency_code: "EUR",
-                  value: 650.0,
+                  value: 220.0,
                 },
               },
             ],
