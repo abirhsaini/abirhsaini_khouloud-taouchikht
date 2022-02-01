@@ -23,6 +23,7 @@ function App() {
     
     <BrowserRouter>
     <Switch>
+    
       <Route path="/" exact component={Home} />
       <Route path="/menu" exact component={Menu} />
       <Route path="/reservation" exact component={Reservation} />

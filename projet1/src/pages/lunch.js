@@ -14,7 +14,7 @@ import { Link } from 'react-scroll';
 import React from "react";
 const Lunch = () => {
   const faireredirection =()=>{ 
-    window.location.href="/order";
+    window.location.href="http://localhost:3000/order";
      }
     
    
